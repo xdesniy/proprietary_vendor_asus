@@ -1,3 +1,0 @@
-result=`cat /proc/driver/batt_miliTemp`
-
-echo `expr $((result))`
