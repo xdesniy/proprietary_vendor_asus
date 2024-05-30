@@ -1,9 +1,0 @@
-side=`cat /sys/class/power_supply/battery/device/usb_thermal_alert`
-
-if [ "$side" -eq "0" ]; then
-	echo PASS
-
-else
-	echo FAIL
-
-fi

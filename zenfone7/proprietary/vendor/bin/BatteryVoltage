@@ -1,3 +1,0 @@
-result=`cat /sys/class/power_supply/bms/voltage_now`
-
-echo `expr $((result/1000))`

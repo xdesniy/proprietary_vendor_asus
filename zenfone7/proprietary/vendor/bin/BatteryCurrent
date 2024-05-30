@@ -1,3 +1,0 @@
-result=`cat /sys/class/power_supply/bms/current_now`
-
-echo `expr $((result/1000*(-1)))`
