@@ -1,2 +1,0 @@
-status=`cat /sys/class/asuslib/once_usb_thermal`
-echo $status
