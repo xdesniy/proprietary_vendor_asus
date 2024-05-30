@@ -1,3 +1,0 @@
-result=`cat /sys/class/power_supply/battery/temp`
-
-echo `expr $((result*100))`
